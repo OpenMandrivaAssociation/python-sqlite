@@ -8,7 +8,6 @@ Group:		Development/Python
 Summary:	Python bindings for sqlite
 Source0:    %{realname}-%{version}.tar.bz2
 Url:		http://pysqlite.sourceforge.net/
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: python-devel sqlite-devel 
 %description
 This packages allows you to use sqlite with python.
