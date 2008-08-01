@@ -2,7 +2,7 @@
 
 Name:		python-sqlite
 Version:        1.0.1
-Release:        %mkrel 6
+Release:        %mkrel 7
 License:	GPL
 Group:		Development/Python
 Summary:	Python bindings for sqlite
