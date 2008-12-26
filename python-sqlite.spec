@@ -2,11 +2,11 @@
 
 Name:		python-sqlite
 Version:        1.0.1
-Release:        %mkrel 7
+Release:        %mkrel 8
 License:	GPL
 Group:		Development/Python
 Summary:	Python bindings for sqlite
-Source0:    %{realname}-%{version}.tar.bz2
+Source0:	%{realname}-%{version}.tar.bz2
 Url:		http://pysqlite.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: python-devel sqlite-devel 
