@@ -2,7 +2,7 @@
 
 Name:		python-sqlite
 Version:        1.0.1
-Release:        %mkrel 9
+Release:        10
 License:	GPL
 Group:		Development/Python
 Summary:	Python bindings for sqlite
@@ -20,8 +20,8 @@ rm -f doc/rest/.*swp
 for i in examples doc; do
 	find $i -name CVS -type d | xargs rm -Rf 
 done;
-sed -e 's///' -i examples/*.py
-sed -e 's///' -i doc/rest/manual.txt 
+sed -e 's///' -i examples/*.py
+sed -e 's///' -i doc/rest/manual.txt 
 %build
 
 %install
