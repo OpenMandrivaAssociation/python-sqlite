@@ -7,7 +7,7 @@ License:	GPL
 Group:		Development/Python
 Summary:	Python bindings for sqlite
 Source0:	%{realname}-%{version}.tar.bz2
-Url:		http://pysqlite.sourceforge.net/
+Url:		https://pysqlite.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: python-devel sqlite-devel 
 %description
